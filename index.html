@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Webcrumbs Plugin</title>
     <style>
       @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
-      
+
       @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
-      
+
       @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
-      
+
       /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
       *,
       :after,
@@ -26,15 +40,8 @@
       html {
         line-height: 1.5;
         -webkit-text-size-adjust: 100%;
-        font-family:
-          Open Sans,
-          ui-sans-serif,
-          system-ui,
-          sans-serif,
-          Apple Color Emoji,
-          Segoe UI Emoji,
-          Segoe UI Symbol,
-          Noto Color Emoji;
+        font-family: Open Sans, ui-sans-serif, system-ui, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
         font-feature-settings: normal;
         font-variation-settings: normal;
         -moz-tab-size: 4;
@@ -74,15 +81,8 @@
       kbd,
       pre,
       samp {
-        font-family:
-          ui-monospace,
-          SFMono-Regular,
-          Menlo,
-          Monaco,
-          Consolas,
-          Liberation Mono,
-          Courier New,
-          monospace;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          Liberation Mono, Courier New, monospace;
         font-feature-settings: normal;
         font-size: 1em;
         font-variation-settings: normal;
@@ -402,15 +402,8 @@
         text-align: center;
       }
       #webcrumbs .font-title {
-        font-family:
-          Lato,
-          ui-sans-serif,
-          system-ui,
-          sans-serif,
-          Apple Color Emoji,
-          Segoe UI Emoji,
-          Segoe UI Symbol,
-          Noto Color Emoji;
+        font-family: Lato, ui-sans-serif, system-ui, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
       }
       #webcrumbs .text-3xl {
         font-size: 30px;
@@ -447,7 +440,7 @@
       #webcrumbs :is(.bg-primary-500) {
         color: hsla(0, 0%, 100%, 0.9) !important;
       }
-      
+
       body {
         line-height: inherit;
         padding: 24px;
@@ -462,10 +455,61 @@
     </style>
   </head>
   <body>
-  <div id="webcrumbs">
-    <div class="w-[700px] bg-white shadow-lg rounded-lg p-8 flex flex-col items-center gap-6"> <img src="https://tools-api.webcrumbs.org/image-placeholder/120/120/avatars/1" alt="Developer Avatar" class="w-[120px] h-[120px] rounded-full object-contain"/> <h1 class="text-3xl font-title text-neutral-950">Hello, I&#x27;m Alex Developer</h1> <p class="text-neutral-950 text-center"> Passionate developer with expertise in building modern web applications. I enjoy solving challenging problems and learning new technologies. </p> <ul class="flex gap-4"> <li> <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-neutral-950 text-xl"> <i class="fa-brands fa-github"></i> </a> </li> <li> <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-neutral-950 text-xl"> <i class="fa-brands fa-linkedin"></i> </a> </li> <li> <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-neutral-950 text-xl"> <i class="fa-brands fa-twitter"></i> </a> </li> </ul> <button class="bg-primary-500 text-primary-50 rounded-md py-2 px-6 text-lg"> Contact Me </button> </div>
-
-
-  </div>
+    <div id="webcrumbs">
+      <div
+        class="w-[700px] bg-white shadow-lg rounded-lg p-8 flex flex-col items-center gap-6"
+      >
+        <img
+          src="https://tools-api.webcrumbs.org/image-placeholder/120/120/avatars/1"
+          alt="Developer Avatar"
+          class="w-[120px] h-[120px] rounded-full object-contain"
+        />
+        <h1 class="text-3xl font-title text-neutral-950">
+          Hello, I&#x27;m Alex Developer
+        </h1>
+        <p class="text-neutral-950 text-center">
+          Passionate developer with expertise in building modern web
+          applications. I enjoy solving challenging problems and learning new
+          technologies.
+        </p>
+        <ul class="flex gap-4">
+          <li>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-neutral-950 text-xl"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-neutral-950 text-xl"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-neutral-950 text-xl"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <button
+          class="bg-primary-500 text-primary-50 rounded-md py-2 px-6 text-lg"
+        >
+          Contact Me
+        </button>
+      </div>
+    </div>
   </body>
 </html>
